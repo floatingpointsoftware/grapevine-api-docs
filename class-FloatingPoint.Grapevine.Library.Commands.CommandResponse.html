@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class FloatingPoint\Grapevine\Library\Commands\CommandResponse | Grapevine by Floating Point Software</title>
+
+	<script type="text/javascript" src="resources/combined.js?657771206"></script>
+	<script type="text/javascript" src="elementlist.js?1472664112"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Namespaces</h3>
+			<ul>
+				<li class="active"><a href="namespace-FloatingPoint.html">FloatingPoint<span></span></a>
+						<ul>
+				<li><a href="namespace-FloatingPoint.Domain.html">Domain<span></span></a>
+						<ul>
+				<li><a href="namespace-FloatingPoint.Domain.Forums.html">Forums<span></span></a>
+						<ul>
+				<li><a href="namespace-FloatingPoint.Domain.Forums.Commands.html">Commands</a>
+						</li>
+				<li><a href="namespace-FloatingPoint.Domain.Forums.Handlers.html">Handlers</a>
+						</li>
+							</ul></li></ul></li>
+				<li class="active"><a href="namespace-FloatingPoint.Grapevine.html">Grapevine<span></span></a>
+						<ul>
+				<li><a href="namespace-FloatingPoint.Grapevine.Http.html">Http<span></span></a>
+						<ul>
+				<li><a href="namespace-FloatingPoint.Grapevine.Http.Requests.html">Requests<span></span></a>
+						<ul>
+				<li><a href="namespace-FloatingPoint.Grapevine.Http.Requests.Forums.html">Forums</a>
+						</li>
+							</ul></li></ul></li>
+				<li class="active"><a href="namespace-FloatingPoint.Grapevine.Library.html">Library<span></span></a>
+						<ul>
+				<li class="active"><a href="namespace-FloatingPoint.Grapevine.Library.Commands.html">Commands</a>
+						</li>
+				<li><a href="namespace-FloatingPoint.Grapevine.Library.Database.html">Database</a>
+						</li>
+				<li><a href="namespace-FloatingPoint.Grapevine.Library.Support.html">Support</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-FloatingPoint.Grapevine.Modules.html">Modules<span></span></a>
+						<ul>
+				<li><a href="namespace-FloatingPoint.Grapevine.Modules.Forums.html">Forums<span></span></a>
+						<ul>
+				<li><a href="namespace-FloatingPoint.Grapevine.Modules.Forums.Commands.html">Commands</a>
+						</li>
+				<li><a href="namespace-FloatingPoint.Grapevine.Modules.Forums.Handlers.html">Handlers</a>
+						</li>
+				<li><a href="namespace-FloatingPoint.Grapevine.Modules.Forums.Models.html">Models</a>
+						</li>
+				<li><a href="namespace-FloatingPoint.Grapevine.Modules.Forums.Repositories.html">Repositories</a>
+						</li>
+				<li><a href="namespace-FloatingPoint.Grapevine.Modules.Forums.Services.html">Services</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="namespace-FloatingPoint.Http.html">Http<span></span></a>
+						<ul>
+				<li><a href="namespace-FloatingPoint.Http.Controllers.html">Controllers</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="namespace-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-FloatingPoint.Grapevine.Library.Commands.Bus.html">Bus</a></li>
+				<li><a href="class-FloatingPoint.Grapevine.Library.Commands.Command.html">Command</a></li>
+				<li class="active"><a href="class-FloatingPoint.Grapevine.Library.Commands.CommandResponse.html">CommandResponse</a></li>
+				<li><a href="class-FloatingPoint.Grapevine.Library.Commands.Translator.html">Translator</a></li>
+				<li><a href="class-FloatingPoint.Grapevine.Library.Commands.ValidationBus.html">ValidationBus</a></li>
+			</ul>
+
+			<h3>Interfaces</h3>
+			<ul>
+				<li><a href="class-FloatingPoint.Grapevine.Library.Commands.BusInterface.html">BusInterface</a></li>
+				<li><a href="class-FloatingPoint.Grapevine.Library.Commands.CommandHandlerInterface.html">CommandHandlerInterface</a></li>
+				<li><a href="class-FloatingPoint.Grapevine.Library.Commands.CommandInterface.html">CommandInterface</a></li>
+				<li><a href="class-FloatingPoint.Grapevine.Library.Commands.TranslatorInterface.html">TranslatorInterface</a></li>
+			</ul>
+
+
+			<h3>Exceptions</h3>
+			<ul>
+				<li><a href="class-FloatingPoint.Grapevine.Library.Commands.HandlerException.html">HandlerException</a></li>
+				<li><a href="class-FloatingPoint.Grapevine.Library.Commands.InvalidCommandArgumentException.html">InvalidCommandArgumentException</a></li>
+				<li><a href="class-FloatingPoint.Grapevine.Library.Commands.NullCommandConstructorException.html">NullCommandConstructorException</a></li>
+			</ul>
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-FloatingPoint.Grapevine.Library.Commands.html" title="Summary of FloatingPoint\Grapevine\Library\Commands"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class CommandResponse</h1>
+
+
+	<div class="description">
+	
+<p>This class provides a useful way to pass information back to the calling
+code. It can pass arbitrary data, failure/success, and associated
+failure/success messages</p>
+
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-FloatingPoint.html">FloatingPoint</a>\<a href="namespace-FloatingPoint.Grapevine.html">Grapevine</a>\<a href="namespace-FloatingPoint.Grapevine.Library.html">Library</a>\<a href="namespace-FloatingPoint.Grapevine.Library.Commands.html">Commands</a><br />
+		
+
+				<b>Author::</b>
+				Mike Dugan<br />
+		<b>Located at</b> <a href="source-class-FloatingPoint.Grapevine.Library.Commands.CommandResponse.html#6-212" title="Go to source code">Library/Commands/CommandResponse.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="toJson" id="_toJson">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_toJson">#</a>
+		<code><a href="source-class-FloatingPoint.Grapevine.Library.Commands.CommandResponse.html#34-48" title="Go to source code">toJson</a>( <span>integer <var>$options</var> = <span class="php-num">0</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Returns a JSON encoding of the response</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns a JSON encoding of the response</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$options</var></dt>
+					<dd><code>integer</code><br>$options</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="success" id="_success">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_success">#</a>
+		<code><a href="source-class-FloatingPoint.Grapevine.Library.Commands.CommandResponse.html#50-66" title="Go to source code">success</a>( <span>null <var>$message</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets success and flash data given a message $message should be either a
+string or ['flash_success' =&gt; 'Your success message']</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets success and flash data given a message $message should be either a
+string or ['flash_success' =&gt; 'Your success message']</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$message</var></dt>
+					<dd><code>null</code><br>$message</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="fail" id="_fail">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_fail">#</a>
+		<code><a href="source-class-FloatingPoint.Grapevine.Library.Commands.CommandResponse.html#68-96" title="Go to source code">fail</a>( <span>null <var>$message</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets failure and flash data given a message This function will automatically
+check the errors var to see if anything has been stored prior to using the
+passed in message $message should be either a string or ['flash_error' =&gt;
+'Your success message']</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets failure and flash data given a message This function will automatically
+check the errors var to see if anything has been stored prior to using the
+passed in message $message should be either a string or ['flash_error' =&gt;
+'Your success message']</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$message</var></dt>
+					<dd><code>null</code><br>$message</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="successful" id="_successful">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_successful">#</a>
+		<code><a href="source-class-FloatingPoint.Grapevine.Library.Commands.CommandResponse.html#98-106" title="Go to source code">successful</a>( )</code>
+
+		<div class="description short">
+			
+<p>Was the command successful?</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Was the command successful?</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="failed" id="_failed">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_failed">#</a>
+		<code><a href="source-class-FloatingPoint.Grapevine.Library.Commands.CommandResponse.html#108-116" title="Go to source code">failed</a>( )</code>
+
+		<div class="description short">
+			
+<p>Was the command a failure?</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Was the command a failure?</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setSuccess" id="_setSuccess">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setSuccess">#</a>
+		<code><a href="source-class-FloatingPoint.Grapevine.Library.Commands.CommandResponse.html#118-131" title="Go to source code">setSuccess</a>( <span>boolean <var>$status</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets the</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets the</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$status</var></dt>
+					<dd><code>boolean</code><br>$status</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getFlashData" id="_getFlashData">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getFlashData">#</a>
+		<code><a href="source-class-FloatingPoint.Grapevine.Library.Commands.CommandResponse.html#133-141" title="Go to source code">getFlashData</a>( )</code>
+
+		<div class="description short">
+			
+<p>Returns an array of flash data which may contain one or more of:
+flash_success, flash_error, flash_warning, flash_info</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns an array of flash data which may contain one or more of:
+flash_success, flash_error, flash_warning, flash_info</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setFlashData" id="_setFlashData">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setFlashData">#</a>
+		<code><a href="source-class-FloatingPoint.Grapevine.Library.Commands.CommandResponse.html#143-154" title="Go to source code">setFlashData</a>( <span>mixed <var>$flash_data</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Simple transporter for flash data. Should be passed an array containing one
+or more of: flash_success, flash_error, flash_warning, flash_info</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Simple transporter for flash data. Should be passed an array containing one
+or more of: flash_success, flash_error, flash_warning, flash_info</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$flash_data</var></dt>
+					<dd><code>mixed</code><br>$flash_data</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="hasFlashData" id="_hasFlashData">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_hasFlashData">#</a>
+		<code><a href="source-class-FloatingPoint.Grapevine.Library.Commands.CommandResponse.html#156-164" title="Go to source code">hasFlashData</a>( )</code>
+
+		<div class="description short">
+			
+<p>Does the object have flash data?</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Does the object have flash data?</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getErrors" id="_getErrors">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getErrors">#</a>
+		<code><a href="source-class-FloatingPoint.Grapevine.Library.Commands.CommandResponse.html#166-174" title="Go to source code">getErrors</a>( )</code>
+
+		<div class="description short">
+			
+<p>Simple getter</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Simple getter</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setErrors" id="_setErrors">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setErrors">#</a>
+		<code><a href="source-class-FloatingPoint.Grapevine.Library.Commands.CommandResponse.html#176-185" title="Go to source code">setErrors</a>( <span>mixed <var>$errors</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Simple setter</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Simple setter</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$errors</var></dt>
+					<dd><code>mixed</code><br>$errors</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="hasErrors" id="_hasErrors">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_hasErrors">#</a>
+		<code><a href="source-class-FloatingPoint.Grapevine.Library.Commands.CommandResponse.html#187-190" title="Go to source code">hasErrors</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getData" id="_getData">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getData">#</a>
+		<code><a href="source-class-FloatingPoint.Grapevine.Library.Commands.CommandResponse.html#192-200" title="Go to source code">getData</a>( )</code>
+
+		<div class="description short">
+			
+<p>Simple getter</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Simple getter</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setData" id="_setData">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setData">#</a>
+		<code><a href="source-class-FloatingPoint.Grapevine.Library.Commands.CommandResponse.html#202-211" title="Go to source code">setData</a>( <span>mixed <var>$data</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Simple setter</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Simple setter</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$data</var></dt>
+					<dd><code>mixed</code><br>$data</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		Grapevine by Floating Point Software API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>
